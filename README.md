@@ -1,15 +1,15 @@
 ============================================
-Clean-and-parse-week-4
-Data Science in R
-============================================
+Clean-and-parse-week-4  
+Data Science in R  
+============================================  
 
-This is the README for the final project in Cleaning and Parsing data.
-Most of the data comes from a UCI HAR Dataset. 
-The README for the UCI HAR Dataset is copied and pasted below
-THis file includes:
-README.md - this file, which explains facts about this repo
-Codebook.md - codebook file which explains the packages and transforms used in the script
-Week4proj.R - the R script that runs the analysis to create a tidy dataset
+This is the README for the final project in Cleaning and Parsing data.  
+Most of the data comes from a UCI HAR Dataset.   
+The README for the UCI HAR Dataset is copied and pasted below  
+THis file includes:  
+README.md - this file, which explains facts about this repo  
+Codebook.md - codebook file which explains the packages and transforms used in the script  
+Week4proj.R - the R script that runs the analysis to create a tidy dataset  
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset

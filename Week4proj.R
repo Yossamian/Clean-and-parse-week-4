@@ -75,10 +75,12 @@ split_df<- group_by(full_df, subject_id, activity_label)
 avg<-summarise_all(split_df, mean)
 #Output result as dataset
 #(30 subjects)x(6 activities)=180 rows
-avg_full_df<-as.data.frame(a)
+avg_full_df<-as.data.frame(avg)
 
 #Write final file outpt
 outputloc="./R/R_scripts/Cleaning and Parsing Data/Week4Proj/Clean-and-parse-week-4/tidy.csv"
 write.csv(avg_full_df, file=outputloc)
+outputloc2="./R/R_scripts/Cleaning and Parsing Data/Week4Proj/Clean-and-parse-week-4/tidy.txt"
+write.table(avg_full_df, file=outputloc2, row.names = FALSE)
 
                   
