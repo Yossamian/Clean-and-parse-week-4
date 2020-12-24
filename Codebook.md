@@ -1,7 +1,7 @@
 Codebook
 Directed to README.md for information on contents of each dataframe
 
-#Libraries used \n
+#Libraries used
 dplyr for dataframe transforms
 sqldf for dataframe transforms
 
